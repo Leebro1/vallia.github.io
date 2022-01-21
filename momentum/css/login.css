@@ -1,0 +1,38 @@
+.wrap__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#login-form {
+  color: antiquewhite;
+  opacity: 0.95;
+}
+
+#login-form input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(241, 223, 199);
+  opacity: 0.95;
+  padding-bottom: 5px;
+  outline: none;
+  color: antiquewhite;
+  font-size: 30px;
+}
+
+#login-form input:hover {
+  color: rgba(250, 235, 215, 0.493);
+  transition: easeoutQuint 0.5s;
+}
+
+#login-form input:focus::placeholder {
+  color: transparent;
+}
+
+#greeting {
+  color: antiquewhite;
+  opacity: 0.8;
+}

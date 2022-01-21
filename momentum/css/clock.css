@@ -1,0 +1,17 @@
+.bclock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: aliceblue;
+  opacity: 0.95;
+}
+
+#clock {
+  margin: 0px;
+}
+
+#clock:hover {
+  transition: ease-in-out 0.5s;
+  color: rgba(240, 248, 255, 0.349);
+}

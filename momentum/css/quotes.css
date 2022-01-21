@@ -1,0 +1,13 @@
+.wrap__quotes {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  top: 80%;
+  left: 40%;
+  color: antiquewhite;
+  opacity: 0.9;
+}
+
+.wrap__quotes span {
+  display: block;
+}

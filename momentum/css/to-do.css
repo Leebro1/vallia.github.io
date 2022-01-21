@@ -1,0 +1,32 @@
+.wrap__todo {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.wrap__todo input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid antiquewhite;
+  opacity: 0.9;
+  padding-bottom: 5px;
+  outline: none;
+  color: antiquewhite;
+  font-size: 20px;
+  width: 20vw;
+}
+
+#todo-form input:focus::placeholder {
+  color: transparent;
+}
+
+#todo-list {
+  color: antiquewhite;
+  opacity: 0.9;
+}
+
+#todo-list button {
+  border: none;
+  background: none;
+  color: aliceblue;
+}

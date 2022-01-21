@@ -1,0 +1,11 @@
+#weather {
+  position: absolute;
+  top: 2.5%;
+  right: 2.5%;
+  color: aliceblue;
+  opacity: 0.8;
+}
+
+#weather span {
+  display: block;
+}
